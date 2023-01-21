@@ -7,6 +7,6 @@ if(file_exists($file))
 }
 else
 {
-    require_once __DIR__ . '/../public/index.php';
+    require_once __DIR__ . '/../index.php';
 }
 #echo $_SERVER["PHP_SELF"];
